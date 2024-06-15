@@ -25,7 +25,7 @@ class Article extends Model
     /**
      * @return BelongsTo
      */
-    public function rol(): BelongsTo
+    public function user(): BelongsTo
     {
         return $this->belongsTo(User::class);
     }
